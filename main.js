@@ -8,7 +8,7 @@ class Replacer {
 
   showOutput({ target }) {
     const expectedValue = target.value.replace(
-      /[a-zA-Z0-9+()$~%.'"@:?<>{}]/g,
+      /[a-zA-Z0-9+()$~%.A-zÀ-ú'"@:?<>{}]/g,
       "*"
     );
     this.output.innerHTML = `Saída: <strong> ${expectedValue} </strong>`;
