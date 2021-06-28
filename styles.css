@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 30px;
+  height: 100vh;
+}
+
+.box {
+  background: #fff;
+  box-shadow: 0 3px 80px rgb(0 0 0 / 10%), 0 3px 3px rgb(0 0 0 / 5%);
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.box textarea {
+  padding: 10px;
+}
+
+#output {
+  transition: all 0.3s ease;
+  padding: 10px 10px;
+  font-size: 1.4rem;
+  opacity: 0;
+}
